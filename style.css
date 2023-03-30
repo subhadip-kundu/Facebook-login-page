@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Lato', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0 50px 0 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.heading h1{
+    font-size: 4.8rem;
+    font-weight: 800;
+    color: #2f71ff ;
+    text-transform: none;
+    padding-bottom: 10px;
+}
+.slogan h2{
+    color: #4b4747;
+    word-spacing: .2rem;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.right-part{
+    max-width: 45%;
+}
+
+.box{
+
+    height: 25rem;
+    width: 28rem;
+    padding: 2rem;
+    box-shadow: 0 0 1.5rem #9ea39e;
+    border-radius: .3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+[name="email"],[name="password"]{
+    height: 3.8rem;
+    width: 105%;
+    margin-bottom: .8rem;
+    padding: .6rem;
+    border: 2px solid #dbdbdb;
+    border-radius: 3px;
+    outline: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: .2s ease-out;
+}
+
+[value="Login"]{
+    height: 3rem;
+    width: 105%;
+    border: none;
+    border-radius: .2rem;
+    background-color: #2f71ff ;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: white;
+}
+
+#forgot-page{
+    margin: 0 auto;
+    margin-top: .4rem;
+    color: #5586ef;
+}
+
+.line{
+    height: 2px;
+    margin-top: .4rem;
+}
+
+[value="Create New Account"]{
+    margin: 0 auto;
+    height: 3rem;
+    width: 68%;
+    border: none;
+    border-radius: .2rem;
+    background-color: #0faa17 ;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 1rem;
+}
+
+a:hover{
+    border-bottom: 1.4px solid #2f71ff;
+}
+
+[value="Login"]:hover{
+    background-color: #3e73e4;
+    transition: .2s ease-in;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+[value="Create New Account"]:hover{
+    background-color: #11be19;
+    transition: .2s ease-in;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
